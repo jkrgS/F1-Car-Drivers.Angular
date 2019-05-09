@@ -1,0 +1,36 @@
+<div class="divTable">
+  <table id="rwd-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Constructor</th>
+        <th>Wins</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="let driver of drivers?.MRData.StandingsTable.StandingsLists[0].DriverStandings; let i = index">
+        <td>{{i + 1}}</td>
+        <td>
+          <a class="eye-icon">
+            <fa name="eye">
+            </fa>
+          </a>
+          &nbsp;
+          <!-- <span
+            class="flag-icon flag-icon-nl"></span> -->
+          <span
+            [ngClass]="getFlag(driver.Driver.nationality)"></span>
+          {{driver.Driver.givenName}}
+          {{driver.Driver.familyName}}
+        </td>
+        <td>
+          {{driver.Constructors[0].name}}
+        </td>
+        <td>{{driver.wins}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

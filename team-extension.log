@@ -1,0 +1,361 @@
+2019-05-08T11:41:36.522Z - info:   [13016] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T11:41:36.523Z - info:   [13016] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T11:41:36.523Z - debug:  [13016] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:41:36.523Z - debug:  [13016] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:41:36.526Z - debug:  [13016] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:41:36.526Z - debug:  [13016] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T11:41:36.526Z - debug:  [13016] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T11:41:36.526Z - debug:  [13016] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T11:41:36.527Z - debug:  [13016] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T11:41:36.527Z - debug:  [13016] TFVC Repository.CheckVersion
+2019-05-08T11:41:36.527Z - debug:  [13016] TFVC: tf add -noprompt -?
+2019-05-08T11:41:36.530Z - debug:  [13016] TFVC: spawned new process (duration: 3ms)
+2019-05-08T11:41:36.537Z - debug:  [13016] TFVC: spawned new process (duration: 7ms)
+2019-05-08T11:41:37.196Z - debug:  [13016] TFVC: add exit code: 0 (duration: 669ms)
+2019-05-08T11:41:37.196Z - debug:  [13016] TFVC Minimum required version: 14.102.0
+2019-05-08T11:41:37.196Z - debug:  [13016] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T11:41:37.196Z - debug:  [13016] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T11:41:37.197Z - debug:  [13016] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:41:37.198Z - debug:  [13016] TFVC: spawned new process (duration: 1ms)
+2019-05-08T11:41:37.955Z - debug:  [13016] TFVC: workfold exit code: 100 (duration: 758ms)
+2019-05-08T11:41:37.956Z - debug:  [13016] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T11:41:37.956Z - error:  [13016] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T11:43:35.984Z - info:   [13380] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T11:43:35.984Z - info:   [13380] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T11:43:35.984Z - debug:  [13380] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:43:35.984Z - debug:  [13380] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:43:35.989Z - debug:  [13380] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:43:35.989Z - debug:  [13380] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T11:43:35.989Z - debug:  [13380] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T11:43:35.989Z - debug:  [13380] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T11:43:35.990Z - debug:  [13380] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T11:43:35.990Z - debug:  [13380] TFVC Repository.CheckVersion
+2019-05-08T11:43:35.990Z - debug:  [13380] TFVC: tf add -noprompt -?
+2019-05-08T11:43:35.993Z - debug:  [13380] TFVC: spawned new process (duration: 3ms)
+2019-05-08T11:43:35.998Z - debug:  [13380] TFVC: spawned new process (duration: 5ms)
+2019-05-08T11:43:36.655Z - debug:  [13380] TFVC: add exit code: 0 (duration: 665ms)
+2019-05-08T11:43:36.655Z - debug:  [13380] TFVC Minimum required version: 14.102.0
+2019-05-08T11:43:36.655Z - debug:  [13380] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T11:43:36.655Z - debug:  [13380] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T11:43:36.656Z - debug:  [13380] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:43:36.658Z - debug:  [13380] TFVC: spawned new process (duration: 2ms)
+2019-05-08T11:43:37.509Z - debug:  [13380] TFVC: workfold exit code: 100 (duration: 853ms)
+2019-05-08T11:43:37.510Z - debug:  [13380] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T11:43:37.510Z - error:  [13380] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T11:44:58.717Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T11:44:58.717Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T11:44:58.718Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:44:58.718Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:44:58.721Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:44:58.722Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T11:44:58.722Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T11:44:58.722Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T11:44:58.723Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T11:44:58.723Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T11:44:58.723Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T11:44:58.726Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T11:44:58.732Z - debug:  [13392] TFVC: spawned new process (duration: 6ms)
+2019-05-08T11:45:00.905Z - debug:  [13392] TFVC: add exit code: 0 (duration: 2182ms)
+2019-05-08T11:45:00.905Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T11:45:00.905Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T11:45:00.905Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T11:45:00.906Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T11:45:00.908Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T11:45:01.199Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 293ms)
+2019-05-08T11:45:01.199Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T11:45:01.200Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T12:01:06.750Z - debug:  [13392] Reinitializing due to onDidChangeConfiguration
+2019-05-08T12:01:06.750Z - debug:  [13392] Polling interval value (minutes): 5
+2019-05-08T12:01:06.750Z - debug:  [13392] Polling interval must be greater than 10 minutes.
+2019-05-08T12:01:06.753Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T12:01:06.753Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T12:01:06.754Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:06.754Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:06.759Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:06.759Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T12:01:06.760Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T12:01:06.761Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T12:01:06.761Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:06.761Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T12:01:06.761Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T12:01:06.764Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:06.833Z - debug:  [13392] TFVC: add exit code: 0 (duration: 71ms)
+2019-05-08T12:01:06.833Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T12:01:06.833Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T12:01:06.833Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:06.834Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:06.836Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:07.450Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 616ms)
+2019-05-08T12:01:07.450Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T12:01:07.450Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T12:01:11.046Z - debug:  [13392] Reinitializing due to onDidChangeConfiguration
+2019-05-08T12:01:11.046Z - debug:  [13392] Polling interval value (minutes): 5
+2019-05-08T12:01:11.046Z - debug:  [13392] Polling interval must be greater than 10 minutes.
+2019-05-08T12:01:11.049Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T12:01:11.050Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T12:01:11.050Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:11.050Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:11.054Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:11.054Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T12:01:11.055Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T12:01:11.055Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T12:01:11.055Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:11.055Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T12:01:11.055Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T12:01:11.058Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:11.112Z - debug:  [13392] TFVC: add exit code: 0 (duration: 57ms)
+2019-05-08T12:01:11.112Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T12:01:11.112Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T12:01:11.112Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:11.112Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:11.114Z - debug:  [13392] TFVC: spawned new process (duration: 1ms)
+2019-05-08T12:01:11.569Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 457ms)
+2019-05-08T12:01:11.569Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T12:01:11.569Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T12:01:15.953Z - debug:  [13392] Reinitializing due to onDidChangeConfiguration
+2019-05-08T12:01:15.954Z - debug:  [13392] Polling interval value (minutes): 5
+2019-05-08T12:01:15.954Z - debug:  [13392] Polling interval must be greater than 10 minutes.
+2019-05-08T12:01:15.955Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T12:01:15.955Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T12:01:15.955Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:15.955Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:15.959Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:15.960Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T12:01:15.960Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T12:01:15.960Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T12:01:15.960Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:15.960Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T12:01:15.960Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T12:01:15.963Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:16.014Z - debug:  [13392] TFVC: add exit code: 0 (duration: 53ms)
+2019-05-08T12:01:16.014Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T12:01:16.014Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T12:01:16.014Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:16.014Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:16.016Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:16.569Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 555ms)
+2019-05-08T12:01:16.569Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T12:01:16.569Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T12:01:21.793Z - debug:  [13392] Reinitializing due to onDidChangeConfiguration
+2019-05-08T12:01:21.793Z - debug:  [13392] Polling interval value (minutes): 5
+2019-05-08T12:01:21.793Z - debug:  [13392] Polling interval must be greater than 10 minutes.
+2019-05-08T12:01:21.794Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T12:01:21.794Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T12:01:21.794Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:21.794Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:21.798Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:21.798Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T12:01:21.798Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T12:01:21.799Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T12:01:21.799Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:21.799Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T12:01:21.799Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T12:01:21.801Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:21.865Z - debug:  [13392] TFVC: add exit code: 0 (duration: 66ms)
+2019-05-08T12:01:21.865Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T12:01:21.865Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T12:01:21.865Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:21.865Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:21.867Z - debug:  [13392] TFVC: spawned new process (duration: 1ms)
+2019-05-08T12:01:22.352Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 487ms)
+2019-05-08T12:01:22.352Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T12:01:22.352Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T12:01:23.903Z - debug:  [13392] Reinitializing due to onDidChangeConfiguration
+2019-05-08T12:01:23.904Z - debug:  [13392] Polling interval value (minutes): 5
+2019-05-08T12:01:23.904Z - debug:  [13392] Polling interval must be greater than 10 minutes.
+2019-05-08T12:01:23.905Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T12:01:23.905Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T12:01:23.905Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:23.905Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:23.909Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:23.910Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T12:01:23.910Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T12:01:23.910Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T12:01:23.910Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:23.911Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T12:01:23.911Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T12:01:23.913Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:23.977Z - debug:  [13392] TFVC: add exit code: 0 (duration: 66ms)
+2019-05-08T12:01:23.977Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T12:01:23.978Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T12:01:23.978Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:23.978Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:23.980Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:24.456Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 478ms)
+2019-05-08T12:01:24.457Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T12:01:24.457Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T12:01:26.639Z - debug:  [13392] Reinitializing due to onDidChangeConfiguration
+2019-05-08T12:01:26.640Z - debug:  [13392] Polling interval value (minutes): 5
+2019-05-08T12:01:26.640Z - debug:  [13392] Polling interval must be greater than 10 minutes.
+2019-05-08T12:01:26.641Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T12:01:26.641Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T12:01:26.641Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:26.641Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:26.645Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:26.645Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T12:01:26.645Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T12:01:26.645Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T12:01:26.646Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:26.646Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T12:01:26.646Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T12:01:26.648Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:27.003Z - debug:  [13392] TFVC: add exit code: 0 (duration: 357ms)
+2019-05-08T12:01:27.003Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T12:01:27.004Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T12:01:27.004Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:27.004Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:27.006Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:27.347Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 343ms)
+2019-05-08T12:01:27.347Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T12:01:27.347Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T12:01:29.345Z - debug:  [13392] Reinitializing due to onDidChangeConfiguration
+2019-05-08T12:01:29.345Z - debug:  [13392] Polling interval value (minutes): 5
+2019-05-08T12:01:29.345Z - debug:  [13392] Polling interval must be greater than 10 minutes.
+2019-05-08T12:01:29.346Z - info:   [13392] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T12:01:29.346Z - info:   [13392] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T12:01:29.346Z - debug:  [13392] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:29.346Z - debug:  [13392] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:29.350Z - debug:  [13392] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:29.350Z - debug:  [13392] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T12:01:29.351Z - debug:  [13392] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T12:01:29.351Z - debug:  [13392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T12:01:29.351Z - debug:  [13392] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:29.352Z - debug:  [13392] TFVC Repository.CheckVersion
+2019-05-08T12:01:29.352Z - debug:  [13392] TFVC: tf add -noprompt -?
+2019-05-08T12:01:29.355Z - debug:  [13392] TFVC: spawned new process (duration: 3ms)
+2019-05-08T12:01:29.413Z - debug:  [13392] TFVC: add exit code: 0 (duration: 60ms)
+2019-05-08T12:01:29.413Z - debug:  [13392] TFVC Minimum required version: 14.102.0
+2019-05-08T12:01:29.413Z - debug:  [13392] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T12:01:29.413Z - debug:  [13392] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T12:01:29.413Z - debug:  [13392] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T12:01:29.415Z - debug:  [13392] TFVC: spawned new process (duration: 2ms)
+2019-05-08T12:01:29.871Z - debug:  [13392] TFVC: workfold exit code: 100 (duration: 458ms)
+2019-05-08T12:01:29.872Z - debug:  [13392] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T12:01:29.872Z - error:  [13392] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T13:01:18.438Z - info:   [15172] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T13:01:18.438Z - info:   [15172] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T13:01:18.438Z - debug:  [15172] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:01:18.438Z - debug:  [15172] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:01:18.744Z - debug:  [15172] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:01:18.744Z - debug:  [15172] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T13:01:18.744Z - debug:  [15172] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T13:01:18.744Z - debug:  [15172] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T13:01:18.745Z - debug:  [15172] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T13:01:18.749Z - debug:  [15172] TFVC Repository.CheckVersion
+2019-05-08T13:01:18.750Z - debug:  [15172] TFVC: tf add -noprompt -?
+2019-05-08T13:01:18.754Z - debug:  [15172] TFVC: spawned new process (duration: 4ms)
+2019-05-08T13:01:18.765Z - debug:  [15172] TFVC: spawned new process (duration: 10ms)
+2019-05-08T13:01:38.560Z - debug:  [15172] TFVC: add exit code: 0 (duration: 19810ms)
+2019-05-08T13:01:38.560Z - debug:  [15172] TFVC Minimum required version: 14.102.0
+2019-05-08T13:01:38.560Z - debug:  [15172] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T13:01:38.560Z - debug:  [15172] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T13:01:38.561Z - debug:  [15172] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:01:38.564Z - debug:  [15172] TFVC: spawned new process (duration: 3ms)
+2019-05-08T13:01:40.165Z - debug:  [15172] TFVC: workfold exit code: 100 (duration: 1604ms)
+2019-05-08T13:01:40.166Z - debug:  [15172] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T13:01:40.166Z - error:  [15172] Execution of the TFVC command line failed unexpectedly.
+2019-05-08T13:09:56.774Z - debug:  [15172] Reinitializing due to onDidChangeConfiguration
+2019-05-08T13:09:56.774Z - debug:  [15172] Polling interval value (minutes): 5
+2019-05-08T13:09:56.774Z - debug:  [15172] Polling interval must be greater than 10 minutes.
+2019-05-08T13:09:56.775Z - info:   [15172] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-08T13:09:56.775Z - info:   [15172] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-08T13:09:56.776Z - debug:  [15172] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:09:56.776Z - debug:  [15172] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:09:56.781Z - debug:  [15172] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:09:56.781Z - debug:  [15172] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-08T13:09:56.782Z - debug:  [15172] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-08T13:09:56.782Z - debug:  [15172] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-08T13:09:56.782Z - debug:  [15172] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T13:09:56.782Z - debug:  [15172] TFVC Repository.CheckVersion
+2019-05-08T13:09:56.782Z - debug:  [15172] TFVC: tf add -noprompt -?
+2019-05-08T13:09:56.785Z - debug:  [15172] TFVC: spawned new process (duration: 2ms)
+2019-05-08T13:09:56.861Z - debug:  [15172] TFVC: add exit code: 0 (duration: 78ms)
+2019-05-08T13:09:56.862Z - debug:  [15172] TFVC Minimum required version: 14.102.0
+2019-05-08T13:09:56.862Z - debug:  [15172] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-08T13:09:56.862Z - debug:  [15172] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-08T13:09:56.862Z - debug:  [15172] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-08T13:09:56.864Z - debug:  [15172] TFVC: spawned new process (duration: 2ms)
+2019-05-08T13:09:57.715Z - debug:  [15172] TFVC: workfold exit code: 100 (duration: 853ms)
+2019-05-08T13:09:57.715Z - debug:  [15172] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-08T13:09:57.716Z - error:  [15172] Execution of the TFVC command line failed unexpectedly.
+2019-05-09T08:18:34.543Z - info:   [16448] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-09T08:18:34.544Z - info:   [16448] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-09T08:18:34.544Z - debug:  [16448] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T08:18:34.544Z - debug:  [16448] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T08:18:34.548Z - debug:  [16448] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T08:18:34.548Z - debug:  [16448] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-09T08:18:34.549Z - debug:  [16448] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-09T08:18:34.549Z - debug:  [16448] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-09T08:18:34.550Z - debug:  [16448] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-09T08:18:34.550Z - debug:  [16448] TFVC Repository.CheckVersion
+2019-05-09T08:18:34.551Z - debug:  [16448] TFVC: tf add -noprompt -?
+2019-05-09T08:18:34.553Z - debug:  [16448] TFVC: spawned new process (duration: 2ms)
+2019-05-09T08:18:34.559Z - debug:  [16448] TFVC: spawned new process (duration: 5ms)
+2019-05-09T08:18:58.983Z - debug:  [16448] TFVC: add exit code: 0 (duration: 24431ms)
+2019-05-09T08:18:58.983Z - debug:  [16448] TFVC Minimum required version: 14.102.0
+2019-05-09T08:18:58.983Z - debug:  [16448] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-09T08:18:58.983Z - debug:  [16448] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-09T08:18:58.983Z - debug:  [16448] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T08:18:58.992Z - debug:  [16448] TFVC: spawned new process (duration: 9ms)
+2019-05-09T08:19:37.533Z - debug:  [16448] TFVC: workfold exit code: 100 (duration: 38550ms)
+2019-05-09T08:19:37.534Z - debug:  [16448] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-09T08:19:37.534Z - error:  [16448] Execution of the TFVC command line failed unexpectedly.
+2019-05-09T15:08:54.430Z - info:   [03588] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-09T15:08:54.430Z - info:   [03588] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-09T15:08:54.430Z - debug:  [03588] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:08:54.430Z - debug:  [03588] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:08:54.434Z - debug:  [03588] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:08:54.434Z - debug:  [03588] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-09T15:08:54.435Z - debug:  [03588] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-09T15:08:54.435Z - debug:  [03588] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-09T15:08:54.435Z - debug:  [03588] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-09T15:08:54.435Z - debug:  [03588] TFVC Repository.CheckVersion
+2019-05-09T15:08:54.436Z - debug:  [03588] TFVC: tf add -noprompt -?
+2019-05-09T15:08:54.439Z - debug:  [03588] TFVC: spawned new process (duration: 3ms)
+2019-05-09T15:08:54.446Z - debug:  [03588] TFVC: spawned new process (duration: 6ms)
+2019-05-09T15:08:58.155Z - debug:  [03588] TFVC: add exit code: 0 (duration: 3719ms)
+2019-05-09T15:08:58.156Z - debug:  [03588] TFVC Minimum required version: 14.102.0
+2019-05-09T15:08:58.156Z - debug:  [03588] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-09T15:08:58.156Z - debug:  [03588] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-09T15:08:58.157Z - debug:  [03588] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:08:58.159Z - debug:  [03588] TFVC: spawned new process (duration: 2ms)
+2019-05-09T15:09:02.462Z - debug:  [03588] TFVC: workfold exit code: 100 (duration: 4304ms)
+2019-05-09T15:09:02.462Z - debug:  [03588] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-09T15:09:02.462Z - error:  [03588] Execution of the TFVC command line failed unexpectedly.
+2019-05-09T15:45:18.116Z - info:   [20588] *** FOLDER: d:\jkr\projects\F1-Car-Drivers.Angular ***
+2019-05-09T15:45:18.116Z - info:   [20588] AzureReposVSCode/1.149.2 (VSCode 1.33.1; Windows_NT 10.0.17763; Node 10.2.0)
+2019-05-09T15:45:18.116Z - debug:  [20588] Looking for an External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:45:18.116Z - debug:  [20588] No External Context at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:45:18.121Z - debug:  [20588] Looking for TFVC repository at d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:45:18.121Z - debug:  [20588] TFVC Creating Tfvc object with localPath='undefined'
+2019-05-09T15:45:18.122Z - debug:  [20588] Using TFS proxy: http://192.168.100.175:8080/tfs
+2019-05-09T15:45:18.122Z - debug:  [20588] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-05-09T15:45:18.122Z - debug:  [20588] TFVC Repository created with repositoryRootFolder='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-09T15:45:18.123Z - debug:  [20588] TFVC Repository.CheckVersion
+2019-05-09T15:45:18.123Z - debug:  [20588] TFVC: tf add -noprompt -?
+2019-05-09T15:45:18.125Z - debug:  [20588] TFVC: spawned new process (duration: 2ms)
+2019-05-09T15:45:18.137Z - debug:  [20588] TFVC: spawned new process (duration: 10ms)
+2019-05-09T15:45:18.854Z - debug:  [20588] TFVC: add exit code: 0 (duration: 731ms)
+2019-05-09T15:45:18.855Z - debug:  [20588] TFVC Minimum required version: 14.102.0
+2019-05-09T15:45:18.855Z - debug:  [20588] TFVC (TF.exe, TF.cmd) version: 15.129.28306.1
+2019-05-09T15:45:18.855Z - debug:  [20588] TFVC Repository.FindWorkspace with localPath='d:\jkr\projects\F1-Car-Drivers.Angular'
+2019-05-09T15:45:18.855Z - debug:  [20588] TFVC: tf workfold -noprompt d:\jkr\projects\F1-Car-Drivers.Angular
+2019-05-09T15:45:18.857Z - debug:  [20588] TFVC: spawned new process (duration: 2ms)
+2019-05-09T15:45:19.088Z - debug:  [20588] TFVC: workfold exit code: 100 (duration: 233ms)
+2019-05-09T15:45:19.088Z - debug:  [20588] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2019-05-09T15:45:19.089Z - error:  [20588] Execution of the TFVC command line failed unexpectedly.
