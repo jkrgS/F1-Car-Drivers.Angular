@@ -10,12 +10,11 @@ export class DriversMainComponent implements OnInit {
   driverDetails = [];
   showSideBar = false;
 
-  constructor(private commService: CommunicationService) { }
+  constructor(private commService: CommunicationService) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
-  driver(driver: []) {
+  driver(driver: any[]) {
     this.showSideBar = true;
     this.driverDetails = driver;
   }
@@ -24,5 +23,4 @@ export class DriversMainComponent implements OnInit {
     this.showSideBar = false;
     this.commService.eyeIconDisplay(0);
   }
-
 }

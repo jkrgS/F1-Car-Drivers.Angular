@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./drivers-list.component.scss']
 })
 export class DriversListComponent implements OnInit {
-  @Output() driverDetails = new EventEmitter<[]>();
+  @Output() driverDetails = new EventEmitter<any[]>();
   drivers: any;
   eyeIconIndex: any;
 
@@ -45,7 +45,7 @@ export class DriversListComponent implements OnInit {
     return 'flag-icon flag-icon-' + Flags[nation];
   }
 
-  showDriverDetails(driverDetails: [], index: any) {
+  showDriverDetails(driverDetails: any[], index: any) {
     this.eyeIconIndex = index;
     this.driverDetails.emit(driverDetails);
   }

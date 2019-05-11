@@ -7,7 +7,14 @@ import { Flags } from 'src/app/helpers/flags';
   styleUrls: ['./drivers-details.component.scss']
 })
 export class DriversDetailsComponent implements OnInit {
-  @Input() driverDetails: [];
+  @Input() driverDetails: any[];
+
+  detailsList = [
+    { title: 'Country:', data: 'nationality' },
+    { title: 'Team:', data: 'driverDetails?.Driver?.nationality' },
+    { title: 'Birth:', data: 'driverDetails?.Driver?.nationality' },
+    { title: 'Biography:', data: 'driverDetails?.Driver?.nationality' }
+  ];
 
   constructor() {}
 

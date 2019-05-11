@@ -1,17 +1,50 @@
 <div class="driver-details">
-  {{ driverDetails.Driver | json }}
-
+  <img
+    src="./assets/{{driverDetails?.Driver?.driverId}}.jpg"
+    alt="">
   <h2>
-    <span [ngClass]="getFlag(driverDetails.Driver.nationality)"></span>
-    {{ driverDetails.Driver.givenName }} {{ driverDetails.Driver.familyName }}
+    <span
+      [ngClass]="getFlag(driverDetails?.Driver?.nationality)"></span>
+    {{ driverDetails?.Driver?.givenName }}
+    {{ driverDetails?.Driver?.familyName }}
   </h2>
 
-  <div>
-    <h5 style="float: left">
-      Country:
-    </h5>
-    <p style="float: right; padding-right: 133px; padding-top: 5px;">
-      {{ driverDetails.Driver.nationality }}
-    </p>
+  <div class="container">
+    <div class="row">
+      <h5>
+        Country:
+      </h5>
+      <p>
+        {{driverDetails?.Driver?.nationality}}
+      </p>
+    </div>
+    <div class="row">
+      <h5>
+        Team:
+      </h5>
+      <p>
+        {{ driverDetails?.Constructors[0].name }}
+      </p>
+    </div>
+    <div class="row">
+      <h5>
+        Birth:
+      </h5>
+      <p>
+        {{ driverDetails?.Driver?.dateOfBirth }}
+      </p>
+    </div>
+    <div class="row">
+      <h5>
+        Biography:
+      </h5>
+      <p>
+        <a target="_blank"
+          href="{{ driverDetails?.Driver?.url }}">
+          <fa name="external-link">
+          </fa>
+        </a>
+      </p>
+    </div>
   </div>
 </div>
