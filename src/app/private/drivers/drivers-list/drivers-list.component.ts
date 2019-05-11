@@ -1,7 +1,8 @@
 import { DriversListService } from './../../../services/api-services/drivers-list.service';
-import { Component, OnInit } from '@angular/core';
-import { IDrivers } from '../../../models/drivers';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Flags } from 'src/app/helpers/flags';
+import { CommunicationService } from 'src/app/services/communication.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-drivers-list',
@@ -9,9 +10,20 @@ import { Flags } from 'src/app/helpers/flags';
   styleUrls: ['./drivers-list.component.scss']
 })
 export class DriversListComponent implements OnInit {
+  @Output() driverDetails = new EventEmitter<[]>();
   drivers: any;
+  eyeIconIndex: any;
 
-  constructor(private driversApiService: DriversListService) {}
+  subscriptions: Subscription; // for unsubscribe on destroy
+
+  constructor(
+    private driversApiService: DriversListService,
+    private commService: CommunicationService
+  ) {
+    this.subscriptions = commService.eyeIconDisplay$.subscribe(res => {
+      this.eyeIconIndex = res;
+    });
+  }
 
   ngOnInit() {
     this.initComponent();
@@ -31,5 +43,10 @@ export class DriversListComponent implements OnInit {
 
   getFlag(nation: string) {
     return 'flag-icon flag-icon-' + Flags[nation];
+  }
+
+  showDriverDetails(driverDetails: [], index: any) {
+    this.eyeIconIndex = index;
+    this.driverDetails.emit(driverDetails);
   }
 }

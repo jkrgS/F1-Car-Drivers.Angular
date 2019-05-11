@@ -32,7 +32,8 @@
               "./node_modules/flag-icon-css/sass/flag-icon.scss",
               "./src/global/styles/navbar.scss",
               "./src/global/styles/drivers-table.scss",
-              "./src/global/styles/home.scss"
+              "./src/global/styles/home.scss",
+              "./src/global/styles/sidebar.scss"
 
             ],
             "scripts": []
@@ -85,7 +86,8 @@
               "./node_modules/flag-icon-css/sass/flag-icon.scss",
               "./src/global/styles/navbar.scss",
               "./src/global/styles/drivers-table.scss",
-              "./src/global/styles/home.scss"
+              "./src/global/styles/home.scss",
+              "./src/global/styles/sidebar.scss"
             ],
             "scripts": [],
             "assets": [

@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommunicationService } from '../../services/communication.service';
 import { Subscription } from 'rxjs';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
@@ -25,22 +26,34 @@ export class NavbarComponent implements OnInit, OnDestroy {
   ];
   // alla info for the navbar items <--
 
-  homeIconActive = true; // enable/disable home icon from navbar
+  homeIconActive = false; // enable/disable home icon from navbar
   subscriptions: Subscription; // for unsubscribe on destroy
 
-  constructor(private commService: CommunicationService) {
+  constructor(
+    private commService: CommunicationService,
+    private location: Location
+  ) {
     // turn the nav bar home icon display on/off - component interaction
     this.subscriptions = commService.homeIconDisplay$.subscribe(res => {
       this.homeIconActive = res;
     });
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.getLocation(this.location.path());
+  }
 
   // disabling home icon from nav bar - updates the service subject
   homeIconDisplay() {
     this.homeIconActive = false;
     this.commService.iconDisplay(false);
+  }
+
+  // for page refresh purpose
+  getLocation(route: string) {
+    if (route === '/drivers') {
+      this.homeIconActive = true;
+    }
   }
 
   ngOnDestroy(): void {

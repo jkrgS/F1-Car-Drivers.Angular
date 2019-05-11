@@ -1,5 +1,6 @@
 $primary-color: #008cba;
 $gray-color: #ddd;
+$eye-icon-disable_color: currentColor;
 $medium-up: 600px;
 $large-up: 1000px;
 $global-radius: 4px;
@@ -259,9 +260,8 @@ table {
 }
 
 .divTable {
-  width: 800px;
-  float: right;
-  padding-right: 100px;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .eye-icon {

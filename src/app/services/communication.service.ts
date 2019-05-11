@@ -6,8 +6,10 @@ import { Subject } from 'rxjs';
 })
 export class CommunicationService {
   private homeIconDisplaySource = new Subject<boolean>();
+  private eyeIconDisplaySource = new Subject<any>();
 
   homeIconDisplay$ = this.homeIconDisplaySource.asObservable();
+  eyeIconDisplay$ = this.eyeIconDisplaySource.asObservable();
 
   iconDisplay(display: boolean) {
     // if (path === truePath) {
@@ -15,5 +17,9 @@ export class CommunicationService {
     // } else {
     // this.homeIconDisplaySource.next(false);
     // }
+  }
+
+  eyeIconDisplay (index: any) {
+    this.eyeIconDisplaySource.next(index);
   }
 }

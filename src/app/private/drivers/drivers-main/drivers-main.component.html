@@ -1,2 +1,10 @@
-<app-drivers-list>
+<div class="sidenav" *ngIf="showSideBar">
+    <a (click)="sideBar()" class="close">
+        <fa name="times-circle">
+        </fa>
+      </a>
+  <app-drivers-details [driverDetails]="driverDetails"></app-drivers-details>
+</div>
+
+<app-drivers-list (driverDetails)="driver($event)">
 </app-drivers-list>

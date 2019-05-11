@@ -1,0 +1,36 @@
+$background_color: #111;
+$close_color:  aliceblue;
+$driver-details_color: aliceblue;
+
+.sidenav {
+  height: 100%;
+  width: 333px;
+  position: fixed;
+  z-index: 1;
+  top: 3;
+  left: 0;
+  background-color: $background_color;
+  overflow-x: hidden;
+}
+
+.drivers-img {
+  width: 100%;
+}
+
+.close {
+  color: $close_color;
+  padding-top: 0;
+  cursor: pointer;
+  float: right;
+}
+
+.driver-details {
+  padding-top: 90px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: $driver-details_color;
+
+  h2 {
+    text-align: center;
+  }
+}

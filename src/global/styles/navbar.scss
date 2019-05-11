@@ -1,3 +1,8 @@
+$background_color: #1b1b1b;
+$nav-title_color: #fff;
+$nav-links_color: #efefef;
+$nav-links-hover_color: #008b8b;
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +15,7 @@ body {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #1b1b1b;
+  background-color: $background_color;
   position: relative;
 
   > .nav-header {
@@ -19,7 +24,7 @@ body {
     > .nav-title {
       display: inline-block;
       font-size: 22px;
-      color: #fff;
+      color: $nav-title_color;
       padding: 10px 10px 10px 33px;
     }
   }
@@ -38,11 +43,11 @@ body {
       display: inline-block;
       padding: 13px 10px 13px 10px;
       text-decoration: none;
-      color: #efefef;
+      color: $nav-links_color;
       border-bottom: 0;
 
       &:hover {
-        background-color: #008b8b;
+        background-color: $nav-links-hover_color;
       }
     }
   }

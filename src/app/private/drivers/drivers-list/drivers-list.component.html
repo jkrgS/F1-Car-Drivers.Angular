@@ -13,13 +13,11 @@
         *ngFor="let driver of drivers?.MRData.StandingsTable.StandingsLists[0].DriverStandings; let i = index">
         <td>{{i + 1}}</td>
         <td>
-          <a class="eye-icon">
+          <a (click)="showDriverDetails(driver, i+1)" *ngIf="!(eyeIconIndex === i+1)" class="eye-icon" >
             <fa name="eye">
             </fa>
           </a>
           &nbsp;
-          <!-- <span
-            class="flag-icon flag-icon-nl"></span> -->
           <span
             [ngClass]="getFlag(driver.Driver.nationality)"></span>
           {{driver.Driver.givenName}}

@@ -1,0 +1,17 @@
+<div class="driver-details">
+  {{ driverDetails.Driver | json }}
+
+  <h2>
+    <span [ngClass]="getFlag(driverDetails.Driver.nationality)"></span>
+    {{ driverDetails.Driver.givenName }} {{ driverDetails.Driver.familyName }}
+  </h2>
+
+  <div>
+    <h5 style="float: left">
+      Country:
+    </h5>
+    <p style="float: right; padding-right: 133px; padding-top: 5px;">
+      {{ driverDetails.Driver.nationality }}
+    </p>
+  </div>
+</div>
