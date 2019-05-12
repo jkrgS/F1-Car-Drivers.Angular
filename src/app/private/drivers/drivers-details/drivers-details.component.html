@@ -1,12 +1,12 @@
 <div class="driver-details">
   <img
-    src="./assets/{{driverDetails?.Driver?.driverId}}.jpg"
+    src="./assets/{{driverDetails['Driver'].driverId}}.jpg"
     alt="">
   <h2>
     <span
-      [ngClass]="getFlag(driverDetails?.Driver?.nationality)"></span>
-    {{ driverDetails?.Driver?.givenName }}
-    {{ driverDetails?.Driver?.familyName }}
+      [ngClass]="getFlag(driverDetails['Driver'].nationality)"></span>
+    {{ driverDetails['Driver'].givenName }}
+    {{ driverDetails['Driver'].familyName }}
   </h2>
 
   <div class="container">
@@ -15,7 +15,7 @@
         Country:
       </h5>
       <p>
-        {{driverDetails?.Driver?.nationality}}
+        {{driverDetails['Driver'].nationality}}
       </p>
     </div>
     <div class="row">
@@ -23,7 +23,7 @@
         Team:
       </h5>
       <p>
-        {{ driverDetails?.Constructors[0].name }}
+        {{ driverDetails['Constructors'][0].name }}
       </p>
     </div>
     <div class="row">
@@ -31,7 +31,7 @@
         Birth:
       </h5>
       <p>
-        {{ driverDetails?.Driver?.dateOfBirth }}
+        {{ driverDetails['Driver'].dateOfBirth }}
       </p>
     </div>
     <div class="row">
@@ -40,7 +40,7 @@
       </h5>
       <p>
         <a target="_blank"
-          href="{{ driverDetails?.Driver?.url }}">
+          href="{{ driverDetails['Driver'].url }}">
           <fa name="external-link">
           </fa>
         </a>

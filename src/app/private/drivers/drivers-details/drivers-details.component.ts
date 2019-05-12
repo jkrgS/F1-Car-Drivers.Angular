@@ -9,6 +9,7 @@ import { Flags } from 'src/app/helpers/flags';
 export class DriversDetailsComponent implements OnInit {
   @Input() driverDetails: any[];
 
+  // driver details list
   detailsList = [
     { title: 'Country:', data: 'nationality' },
     { title: 'Team:', data: 'driverDetails?.Driver?.nationality' },
@@ -20,6 +21,7 @@ export class DriversDetailsComponent implements OnInit {
 
   ngOnInit() {}
 
+  // gets the flag via flags helper enum
   getFlag(nation: string) {
     return 'flag-icon flag-icon-' + Flags[nation];
   }

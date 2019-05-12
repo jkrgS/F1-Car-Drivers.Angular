@@ -33,6 +33,7 @@ export class DriversListComponent implements OnInit {
     this.getDrivers();
   }
 
+  // get drivers list
   getDrivers() {
     if (!this.drivers) {
       this.driversApiService.getDrivers().subscribe(res => {
@@ -41,6 +42,7 @@ export class DriversListComponent implements OnInit {
     }
   }
 
+  // gets the flag via flags helper enum
   getFlag(nation: string) {
     return 'flag-icon flag-icon-' + Flags[nation];
   }
